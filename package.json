@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_grupolar",
+  "version": "1.0.0",
+  "description": "proyecto hecho para un estudio de arquitectura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiPerez99/proyecto_desarrolloWeb.git"
+  },
+  "author": "santiago pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiPerez99/proyecto_desarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/SantiPerez99/proyecto_desarrolloWeb#readme"
+}

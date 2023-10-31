@@ -1,0 +1,57 @@
+
+.divfooter {
+    display: flex;
+    background-color: $color-gris-footer;
+    .copy {
+      font-size: $fuente-small;
+    }
+    .divfooterli {
+      display: flex;
+      padding-top: 20px;
+      margin-left: 0%;
+      .navfooter {
+        font-family: $tipografia-secundaria;
+        text-decoration: none;
+        margin: 0.5px;
+        list-style: none;
+        font-weight: map-get($font-weight, negra);
+        padding: 10px;
+        z-index: 10;
+        justify-content: center;
+      }
+      .navfooter {
+        text-decoration: none;
+        color: rgb(189, 27, 27);
+        font-size: $fuente-subintermedia;
+        margin: 30px;
+      }
+    }
+    .divlogo {
+      display: inline-flex;
+      margin: 10px;
+    }
+    .divlogo a img {
+      width: 100%;
+      border-radius: 20px;
+    }
+    
+    // Estilos para pantallas más pequeñas (max-width: 768px)
+    @media (max-width: 768px) {
+      .divfooterli nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        justify-content: flex-start;
+      }
+      
+      .divfooterli nav ul li {
+        display: none; // Oculta los elementos de la lista con palabras
+        
+      }
+      
+      // Asegúrate de que los elementos <i> con los iconos sean visibles
+      .divfooterli nav ul li a i {
+        display: flex;
+      }
+    }
+  }

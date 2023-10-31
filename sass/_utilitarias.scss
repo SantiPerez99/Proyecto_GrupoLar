@@ -1,0 +1,255 @@
+@keyframes transformacion {
+    0%{
+      background-color: rgb(145, 145, 145);
+      transform: translateX(0px)
+    }
+    50%{
+      background-color: rgb(88, 88, 88);
+      transform: translateX(20px)
+    }
+    100%{
+      background-color: gray;
+      transform: translateX(-10px)
+    } 
+  }
+  .boton_proyectos{
+    background-color: black;
+    animation-name: transformacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+  }
+p { 
+    color: rgb(0, 0, 0);
+    font-size: 20px
+
+}
+.cuerpo{
+    
+    text-decoration: none;
+    background-image: url(../assets/img/fondo\ geo.jpg)  
+}
+
+.cuerpo a{
+    text-decoration: none;
+}
+.texto__carrusel{
+    color: rgb(255, 255, 255);
+    font-size: $fuente-mediana;
+    font-weight: map-get($font-weight, oscura );
+    font-family: $tipografia-principal;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    background-color: grey;
+}
+.ParrafosPrincipales{ 
+    color: rgb(0, 0, 0); 
+    font-size: $fuente-grande;
+    font-weight: map-get($font-weight, oscura );
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+.ParrafosSecundarios{
+    color: rgb(0, 0, 0);
+    font-size: $fuente-mediana;
+    font-weight: map-get($font-weight, intermedia );
+    font-family: $tipografia-principal;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    
+}
+.Titulo_procedimiento{
+    color: rgb(0, 0, 0);
+    font-size: $fuente-mediana;
+    font-weight: map-get($font-weight, oscura );
+    font-family: $tipografia-principal;
+    background-color: white;
+}
+.contenedor_titulo_conocenos{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.padreGaleria{
+    justify-content: center;
+}
+
+.pasos{
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px; 
+    
+}
+.contenedor_titulo_conocenos{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.carousel .slide div{
+    height: 60vh;
+}
+.iconos{
+    font-size: 2.5rem;
+    color: rgb(62, 77, 64);
+}
+.link_nav{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+  }
+  .link_nav:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(69, 69, 69);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+  }
+  .link_nav:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+@media screen and (min-width:0px) and (max-width:768px)  {
+    .cuerpo{
+        margin: 0px;
+    }
+    .navbar-brand {
+        font-size: small;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ParrafosPrincipales{ 
+        font-size: 1.5rem;
+        
+    }
+    .ParrafosSecundarios{
+        
+        font-size: 1rem;
+        
+        
+    }
+    .divimagenes{
+        
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        flex-wrap: wrap;
+        gap: 3rem;
+        width: initial
+        
+    
+    }
+    .divimagenes a img{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        
+    }
+    .divfooterli {
+        margin: 5px;
+        margin-left: 0%;
+        
+    }
+    .divlogo {
+        display: block;
+        
+        margin: 10px
+        
+        
+    }
+    .divlogo a img{
+        width: 100vh
+        
+    }
+    .divfooterli {
+        margin: initial
+        
+        
+    }
+    .navfooter{
+        display:block;
+        text-align: right;
+        padding-left: 0px; 
+    }   
+    .navfooter a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        margin: 15px;
+        background-color: aqua;
+    }
+    .contenedor_contacto{
+        display: block;
+    }
+    .iconos{
+        font-size: 1rem;
+        color: rgb(62, 77, 64);
+    }
+    .mapa_google iframe{
+        width: 100%
+    }
+   
+}
+@media screen and (min-width:768px) and (max-width:1340px){
+    .divHeader {
+        width: 100%;
+        height: initial;
+        
+    }
+    .navegador {
+        background-color: rgba(0, 0, 0, 0.325);
+    
+    }
+    .listaNav{
+        margin: auto;
+    
+    }
+    .nav   {
+       
+        margin: 0.5px;
+        list-style: none;
+        font-weight: 300;
+        padding: 2px;
+        
+     
+    }
+    .nav a{
+
+        font-size: 20px;
+        margin: 5px;
+        
+    }
+    .divfooterli {
+        margin: 10px;
+        
+        
+    }
+    .navfooter{
+        margin-top: 30px;
+        padding: 4px;
+        
+    }   
+    .navfooter a{
+        font-size: 1rem;
+        margin: 10px;
+        
+    }
+    .divlogo {
+        margin-top: 30px;
+    }
+
+}    

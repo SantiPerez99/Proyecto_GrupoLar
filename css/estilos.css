@@ -1,0 +1,482 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+@keyframes transformacion {
+  0%{
+    background-color: rgb(145, 145, 145);
+    transform: translateX(0px)
+  }
+  50%{
+    background-color: rgb(88, 88, 88);
+    transform: translateX(20px)
+  }
+  100%{
+    background-color: gray;
+    transform: translateX(-10px)
+  } 
+}
+
+.cuerpo {
+  text-decoration: none;
+  background-image: url(../assets/img/fondo\ geo.jpg);
+}
+
+.cuerpo a {
+  text-decoration: none;
+}
+.carousel-item{
+  height: 80vh;
+
+}
+
+.texto__carrusel {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "roboto", sans-serif;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  background-color: grey;
+}
+.ParrafosPrincipales {
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  display: inline;
+  justify-content: center;
+  text-align: center;
+}
+
+.ParrafosSecundarios {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "roboto", sans-serif;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+}
+.contenedor_titulo_conocenos {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.padreGaleria {
+  justify-content: center;
+  align-items: center;
+}
+
+.pasos {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+
+.contenedor_titulo_conocenos {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.iconos {
+  font-size: 2.5rem;
+  color: rgb(62, 77, 64);
+}
+.boton_proyectos{
+  background-color: black;
+  animation-name: transformacion;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+}
+.cartas_proyectos{
+  margin: 10px;
+}
+.link_nav{
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}
+.link_nav:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(69, 69, 69);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-out;
+}
+.link_nav:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.Parrafoprocedimiento{
+  font-family:'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 30px;
+  text-align: center; 
+}
+.numero{
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(25, 70, 40);
+}
+.Titulo_procedimiento {
+  color: rgb(61, 61, 61);
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.texto {
+  font-size: 1.5rem;
+  color: rgb(69, 69, 69);
+  border: 10px;
+  margin-bottom: 50px;
+}
+.pasos_impares{
+  background-color: rgba(0, 128, 0, 0.327);
+  border-radius: 20px;
+}
+.pasos_pares{
+  background-color: rgba(255, 255, 255, 0.327);
+  border-radius: 20px;
+}
+.body_404{
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(#788284,#023127 ); 
+}
+.container_404{
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  transform: translateY(-50);
+  text-align: center;
+  color: black;
+}
+.container_404 h1{
+  font-size: 100px;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 20px;
+  background-image: url(../assets/img/fondo\ geo\ 2.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;  
+}
+.container_404 h2{
+  font-size: 250px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+  background-image: url(../assets/img/fondo\ geo\ 3.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;  
+}
+.container_404 a{
+  text-decoration: none;
+  background:whitesmoke ;
+  color: #023127;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.container_404 a:hover{
+  background: rgb(95, 95, 95);
+  color: white;
+}
+.navfooter:hover{
+  background-color: #02312774;
+  border-radius: 25px;
+}
+.divfooter{
+  margin-top: 25px;
+}
+.pasos{
+  display: flex;
+}
+.titulo_galeria{
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px;
+  font-family:'Montserrat', sans-serif;
+}
+.linea{
+  background: #023127;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 40px 0;
+  overflow: hidden;
+}
+.galeria img{
+  width: 100%;
+  vertical-align: top;
+  height: 258px;
+  object-fit: cover;
+  transition: transform 0.5s;
+  border-radius: 5px;
+}
+.galeria > a{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 6px 6px rgb(105, 105, 105)
+}
+.galeria a:hover img{
+  transform: scale(1.1);
+  
+}
+.item{
+  display: block;
+  height: 100%;
+  width: 100%;
+ 
+}
+.item img{
+  height: 100%;
+  width: 100%;
+
+}
+.light-box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0,0, .5);
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: transform .3s ease-in-out;
+}
+.light-box img{
+  width: 75vw;
+  max-height: 90vh;
+}
+.light-box:target{
+  transform: scale(1);
+}
+.close{
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  color: black;
+  background-color: rgb(109, 101, 101);
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .cuerpo {
+    margin: 0px;
+  }
+  .navbar-brand {
+    font-size: small;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .ParrafosPrincipales {
+    font-size: 1.5rem;
+  }
+  .ParrafosSecundarios {
+    font-size: 1rem;
+  }
+  .divimagenes {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: initial;
+  }
+  .divimagenes a img {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  .divlogo {
+    display: block;
+    margin: 10px;
+  }
+  .divlogo a img {
+    width: 100vh;
+  }
+  .divfooter.divfooterli nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-around;
+  }
+  
+  .divfooter.divfooterli nav ul li {
+    display: none; /* Oculta las palabras del menú en dispositivos más pequeños */
+  }
+  
+  /* Asegúrate de que los elementos <i> con los iconos sean visibles */
+  .divfooter.divfooterli nav ul li a i {
+    display: block;
+  }
+  
+  .contenedor_contacto {
+    display: block;
+  }
+  .iconos {
+    font-size: 1rem;
+    color: rgb(62, 77, 64);
+  }
+  .mapa_google iframe {
+    width: 100%;
+  }
+  .container_404 h1 {
+    font-size: 50px;
+  }
+  .container_404 h2 {
+    font-size: 125px;
+  }
+  .carousel-item {
+    height: initial;
+  }
+  .pasos {
+    display: block;
+    margin: auto;
+  }
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  #carouselExampleInterval {
+    height: 100vh; /* 100% de la altura de la ventana */
+  }
+  
+  /* Establece la altura de las imágenes en el carrusel al 100% de la altura de la ventana */
+  #carouselExampleInterval .carousel-inner .carousel-item img {
+    height: 100vh; /* 100% de la altura de la ventana */
+    object-fit: contain; /* Mantiene la relación de aspecto y rellena el contenedor */
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .divHeader {
+    width: 100%;
+    height: initial;
+  }
+  .navegador {
+    background-color: rgba(0, 0, 0, 0.325);
+  }
+  .listaNav {
+    margin: auto;
+  }
+  .nav {
+    margin: 0.5px;
+    list-style: none;
+    font-weight: 300;
+    padding: 2px;
+  }
+  .nav a {
+    font-size: 20px;
+    margin: 5px;
+  }
+  .divfooterli {
+    margin: 10px;
+  }
+  .navfooter {
+    margin-top: 30px;
+    padding: 4px;
+  }
+  .navfooter a {
+    font-size: 1rem;
+    margin: 10px;
+  }
+  .divlogo {
+    margin-top: 30px;
+  }
+  .contenedor_contacto {
+    display: block;
+  }
+  .iconos {
+    font-size: 1.5rem;
+    color: rgb(62, 77, 64);
+  }
+  .mapa_google iframe {
+    width: 100%;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.divfooter {
+  display: flex;
+  background-color: rgba(74, 74, 74, 0.547);
+}
+.divfooter .copy {
+  font-size: small;
+}
+.divfooter .divfooterli {
+  padding-top: 20px;
+  margin-left: 0%;
+}
+.divfooter .divfooterli .navfooter {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin: 0.5px;
+  list-style: none;
+  font-weight: 600;
+  padding: 10px;
+  z-index: 10;
+  justify-content: center;
+}
+.divfooter .divfooterli .navfooter a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  margin: 30px;
+}
+.divfooter .divlogo {
+  display: inline-flex;
+  margin: 10px;
+}
+.divfooter .divlogo a img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

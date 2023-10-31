@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Montserrat:ital,wght@0,400;1,200&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    
+
+    
+}
+
+p{ 
+    color: rgb(0, 0, 0);
+    font-size: 20px
+
+}
+.cuerpo {
+    
+    text-decoration: none;
+    background-image: url(../assets/img/fondo\ geo.jpg)
+    
+
+}
+.cuerpo a{
+    text-decoration: none;
+}
+.texto__carrusel{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    background-color: grey;
+}
+.ParrafosPrincipales{ 
+    color: rgb(0, 0, 0); 
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+.ParrafosSecundarios{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    
+}
+.contenedor_titulo_conocenos{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.divfooter {
+    display: flex;
+    background-color: rgb(74, 74, 74);
+    
+    
+}
+.copy {
+    font-size: small;
+    
+ }
+ .divfooterli {
+    padding-top: 20px;
+    margin-left: 0%;
+    
+}
+.navfooter{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0.5px;
+    list-style: none;
+    font-weight: 600;
+    padding: 10px;
+    z-index: 10;
+    justify-content: center;
+}   
+.navfooter a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 30px;
+    
+}
+.divlogo {
+    display: inline-flex;
+    
+    margin: 10px
+    
+    
+}
+.divlogo a img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.texto {
+    
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.padreGaleria{
+    justify-content: center;
+}
+
+.pasos{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; 
+    display: flex;
+}
+.contenedor_titulo_conocenos{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.carousel .slide div{
+    height: 60vh;
+}
+
+@media screen and (min-width:0px) and (max-width:768px)  {
+    .cuerpo{
+        margin: 0px;
+    }
+    .navbar-brand {
+        font-size: small;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ParrafosPrincipales{ 
+        font-size: 1.5rem;
+        
+    }
+    .ParrafosSecundarios{
+        
+        font-size: 1rem;
+        
+        
+    }
+    .divimagenes{
+        
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        flex-wrap: wrap;
+        gap: 3rem;
+        width: initial
+        
+    
+    }
+    .divimagenes a img{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        
+    }
+    .divfooterli {
+        margin: 5px;
+        margin-left: 0%;
+        
+    }
+    .divlogo {
+        display: block;
+        
+        margin: 10px
+        
+        
+    }
+    .divlogo a img{
+        width: 100vh
+        
+    }
+    .divfooterli {
+        margin: initial
+        
+        
+    }
+    .navfooter{
+        display:block;
+        text-align: right;
+        padding-left: 0px;
+    }   
+    .navfooter a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        margin: 15px;
+        
+    }
+   
+}
+@media screen and (min-width:768px) and (max-width:1340px){
+    .divHeader {
+        width: 100%;
+        height: initial;
+        
+    }
+    .navegador {
+        background-color: rgba(0, 0, 0, 0.325);
+    
+    }
+    .listaNav{
+        margin: auto;
+    
+    }
+    .nav   {
+       
+        margin: 0.5px;
+        list-style: none;
+        font-weight: 300;
+        padding: 2px;
+        
+     
+    }
+    .nav a{
+
+        font-size: 20px;
+        margin: 5px;
+        
+    }
+    .divfooterli {
+        margin: 10px;
+        
+        
+    }
+    .navfooter{
+        margin-top: 30px;
+        padding: 4px;
+        
+    }   
+    .navfooter a{
+        font-size: 1rem;
+        margin: 10px;
+        
+    }
+    .divlogo {
+        margin-top: 30px;
+    }
+    
+  
+
+}    
+   
